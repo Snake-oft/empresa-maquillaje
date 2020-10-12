@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+}
+
+.section-index{
+  width: 1200px;
+  margin: auto;
+  height: auto;
+  margin-top: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.firstArtc{
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerimg1{
+  width: 1200px;
+}
+
+.firstArtctext{
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top:25px;
+}
+.anuncioNuevos{
+  font-size: 30px;
+  font-family: 'Commissioner', sans-serif;
+}
+
+.lineaNew{
+width: 43%;
+height: 10px;
+background-color: #fbeeee;
+margin: auto;
+}
+/**SEGUNDO ARTICLE************************/
+
+.secndArtic{
+width: 1200px;
+height: auto;
+display: flex;
+margin-top: 70px;
+flex-direction: row;
+  float: left;
+}
+
+.primerOpcionVenta{
+  width: 18%;
+  height: 350px;
+margin-left: 20px
+}
+
+.contenedorImg{
+  width: 100%;
+  height: 300px;
+background-image: url("../img/combo 1.jpg");
+background-position: center;
+background-size: 230px;
+}
+
+.contenedorImg1{
+  width: 100%;
+  height: 300px;
+background-image: url("../img/combo 2.jpg");
+background-position: center;
+background-size: 230px;
+}
+
+.contenedorImg2{
+  width: 100%;
+  height: 300px;
+background-image: url("../img/PAG INICIO 3.jpg");
+background-position: center;
+background-size: 230px;
+}
+
+.contenedorImg3{
+  width: 100%;
+  height: 300px;
+background-image: url("../img/PAG INICIO 4.jpg");
+background-position: center;
+background-size: 230px;
+}
+
+.contenedorImg4{
+  width: 100%;
+  height: 300px;
+background-image: url("../img/PAG INICIO 5.jpg");
+background-position: center;
+background-size: 230px;
+}
+
+.contendedorTxt{
+  font-family: Arial;
+  font-size: 15px;
+  text-align:center;
+  color: gray;
+}
