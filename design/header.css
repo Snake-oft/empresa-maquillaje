@@ -8,13 +8,20 @@ header {
 
 }
 
+.Caja{
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
 .logo {
   width: 130px;
    height: 130px;
   margin-top: 5px;
-  margin-left: 250px;
+  margin-left: 10px;
   float: left;
-
 }
 .logoResponsive {
   width: 50px;
@@ -26,7 +33,7 @@ header {
 
   position: absolute;
   top:5%;
-  left: 35%;
+  left: 33%;
   transform: translate(-50%, -50%);
 }
 .search-box{
@@ -50,7 +57,7 @@ header {
 .nav {
   width: 500px;
 float:left;
-  margin-left: 250px;
+  margin-left: 350px;
   list-style: none;
   margin-top: 35px;
 
@@ -119,6 +126,11 @@ font-family: 'Commissioner', sans-serif;
 height: 60px;
 background-color: #f5bdbc;
   }
+  .Caja{
+width: 100%;
+    height: 100%;
+    position: absolute;
+  }
   .cajaDeIconosResponsive {
     display: block;
   }
@@ -128,10 +140,10 @@ background-color: #f5bdbc;
   }
 
   .buscar{
-    width: 160px;
+    width: 170px;
     position: absolute;
     top: 3%;
-    left: 80%;
+    left: 75%;
   }
   .search-box{
     padding: 0px 10px 2px 32px;
